@@ -41,7 +41,7 @@ export const Hero = () => {
             duration: 1,
             x: '-120%',
             stagger: 0.1, 
-            ease: 'power3.inOut',
+            ease: 'power3.inOut',   
         })
     },[inView])
 
