@@ -31,8 +31,9 @@ export const Contact = () => {
     return (
         <div id="contact">
             <div id='cWrap'>
-            <h1 id='cHead'>Contact</h1>
+            
             <form ref={form} onSubmit={handleSubmit}>
+                <h1 id='cHead'>Contact</h1>
                 <input placeholder="your name" name='name'/>
                 <textarea placeholder="what do you want to get done" name='message' />
                 <button> contact </button>

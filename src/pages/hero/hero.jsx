@@ -52,7 +52,7 @@ export const Hero = () => {
         <section id="hero" ref={container}>
              <div className={`nav ${hasScrolled ? 'scrolled' : ''}`}>
                     <h1 id='nLeft'>
-                        <h1>Bot-alpha</h1>
+                        <h1>Fikayo</h1>
                     </h1>
                         <ul>
                             <li className='bar-item'><a href='#hero'>home</a></li>
@@ -69,7 +69,7 @@ export const Hero = () => {
                       <div id='mobileNav'>
                       <div id='mbWrap' ref={ref}>
                           <div id='mbWrapH'>
-                              <h1>Bot-alpha</h1>
+                              <h1>fikayo</h1>
                               <img  src='./close.png' onClick={toggleNav}/>
                            </div>
                            <div id='mbWrapB'>
@@ -88,13 +88,16 @@ export const Hero = () => {
               
 
             <div id='heroWrap'>
-                <h1 id='heroWraph1'>Crafting Intelligent Solutions<span className='mic'><img src='robots.png' /></span>Elevate Your Business with Our Cutting-Edge Automation Solutions. </h1>
-                <h1 id='heroWraph2'>Expert Web Scraping, Bot Development, and Automation Services Tailored to Your Needs. From data extraction to process
-                                     optimization, we provide innovative solutions that drive efficiency and growth. 
+                <h1 id='heroWraph1'>Hi, I’m fikayo<span className='mic'><img src='profile-pic.png' />
+                </span>Full-Stack Developer | Problem Solver | Builder</h1>
+                <h1 id='heroWraph2'>
+                    I build dynamic, user-friendly, and high-performing web applications using cutting-edge technologies.
+                     From front-end interfaces to robust back-end systems, 
+                    I deliver full-stack solutions that drive impact and growth.
                 </h1>
                 <div id='hBtns'>
                     <button><a href='#services'>my skills</a></button>
-                    <button><a href='#contact'>contact</a></button>
+                    <button><a href='#contact'>download cv</a></button>
                 </div>
             </div>
         </section>

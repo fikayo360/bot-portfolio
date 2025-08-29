@@ -8,57 +8,54 @@ export const Services = () => {
             <div id='sWrap'>
             <h1 id='sHead'>My skills </h1>
             <div id='offers' >
+
+
                 <div className='service' >
-                    <img className='sFi' src='./data.png'/>
-                    <h1 className='sMH'>Data extraction</h1>
-                    <div className='sLi'><img src='./star.png'/><h1>extract ecommerce product data</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract social media data (instagram,twitter,linkedin e.t.c)</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract news data(articles,links) </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract real estate listings</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract job postings</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>research data generation</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>machine learning training data generation</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>and so on</h1></div>
+                    <img  className='sFi' src='./integrations.png'/>
+                    <h1 className='sMH'>Front-End Development</h1>
+                    <div className='sLi'><img src='./star.png'/><h1>JavaScript Frameworks (React, Vue, Angular)</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>html and css</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>ui/ux principles</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>responsive web design</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Front-end build tools (Webpack, Vite)</h1></div>
                 </div>
 
                 <div className='service'>
-                    <img  className='sFi' src='./leads.png'/>
-                    <h1 className='sMH'>Lead generation</h1>
-                    <div className='sLi'><img src='./star.png'/><h1>extract emails</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract business address </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract phone numbers </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>extract usernames</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>and so on</h1></div>
+                    <img  className='sFi' src='./integrations.png'/>
+                    <h1 className='sMH'>Backend development</h1>
+                    <div className='sLi'><img src='./star.png'/><h1>Server-side languages (Node.js, Python, Ruby)</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>api design and developement</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Authentication and authorization</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Server-side architecture (MVC, Microservices)</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>scalability and perfomance optimization</h1></div>
                 </div>
 
                 <div className='service' >
-                    <img  className='sFi' src='./social.png'/>
-                    <h1 className='sMH'>social media bots </h1>
-                    <div className='sLi'><img src='./star.png'/><h1>create dummy followers </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>automatically engage posts (likes,comment,retweets) </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>automatically post content</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>automatically follow user</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>automatically send dms </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>and so on</h1></div>
+                  <img  className='sFi' src='./integrations.png'/>
+                    <h1 className='sMH'>Database management </h1>
+                    <div className='sLi'><img src='./star.png'/><h1>SQL databases (PostgreSQL, MySQL)</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>NoSQL databases (MongoDB, Redis)</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Database design and modeling</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Query optimization</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>database security</h1></div>
                 </div>
 
                 <div className='service' >
-                    <img  className='sFi' src='./robot.png'/>
+                   <img  className='sFi' src='./integrations.png'/>
                     <h1 className='sMH'>Automations </h1>
                     <div className='sLi'><img src='./star.png'/><h1>Automated Data entry </h1></div>
                     <div className='sLi'><img src='./star.png'/><h1>api integration/development </h1></div>
                     <div className='sLi'><img src='./star.png'/><h1>custom automations/workflows</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>and so on</h1></div>
                 </div>
 
                 <div className='service' >
-                    <img  className='sFi' src='./vip.png'/>
-                    <h1 className='sMH'>niche (vip services) </h1>
-                    <div className='sLi'><img src='./star.png'/><h1>financial data scraping </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>legal research automations </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>healthcare data extraction</h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>travel data scrapping </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>and so on</h1></div>
+           <img  className='sFi' src='./integrations.png'/>
+                    <h1 className='sMH'>Devops and Deployment</h1>
+                    <div className='sLi'><img src='./star.png'/><h1>Cloud services (AWS, Google Cloud, Azure) </h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Containerization (Docker) </h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Continuous Integration/Continuous Deployment (CI/CD)</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>Server management</h1></div>
+                    <div className='sLi'><img src='./star.png'/><h1>monitoring and logging</h1></div>
                 </div>
 
                 
@@ -69,7 +66,6 @@ export const Services = () => {
                     <div className='sLi'><img src='./star.png'/><h1>word press plugins </h1></div>
                     <div className='sLi'><img src='./star.png'/><h1>calendly integrations</h1></div>
                     <div className='sLi'><img src='./star.png'/><h1> social media integrations </h1></div>
-                    <div className='sLi'><img src='./star.png'/><h1>and so on</h1></div>
                 </div>
                 </div>
             </div>

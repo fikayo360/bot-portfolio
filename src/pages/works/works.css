@@ -6,78 +6,124 @@
     justify-content: center;
 }
 
-#wkWrap{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: left;
+.portfolio-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 5rem;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-#wHead{
-    font-size: clamp(1.2rem, 3vw, 1.3rem);
-    margin-bottom: 1rem;
+/* Header Section Styles */
+.pheader-section {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 60px; /* Space from the top */
+}
+
+.recent-projects-title {
+  font-size: 0.9em;
+  color: #cccccc;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.selected-portfolio-title {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+/* Masonry Grid Styles */
+.masonry-grid-container {
+  padding: 20px 0;
+}
+
+.masonry-grid {
+  /* Using column-count for a pure CSS masonry effect */
+  column-count: 3; /* Default for larger screens */
+  column-gap: 40px; /* Gap between columns */
+  break-inside: avoid; /* Prevent items from breaking across columns */
+}
+
+.masonry-item {
+  margin-bottom: 20px; /* Space between items in the same column */
+  display: inline-block; /* Essential for column-count to work correctly */
+  width: 100%; /* Ensure item takes full width of its column */
+  box-sizing: border-box;
+  border-radius: 8px; /* Rounded corners for image containers */
+  overflow: hidden; /* Ensures image corners are also rounded */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  cursor: pointer;
+  text-align: left;
+}
+
+.masonry-image {
+  width: 100%; /* Image takes full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+  border-radius: 8px; /* Rounded corners for the image itself */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  margin-bottom: 1rem;
+}
+
+.pname{
     font-weight: bold;
+    cursor: pointer;
 }
 
-.wWrap{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap:2rem;
-    text-align: left;
-    position: relative;
+.masonry-item:hover .masonry-image {
+  transform: scale(1.03); /* Slightly zoom in on hover */
 }
 
-.designItem{
-    width: 100%;
-    height: auto;
+.masonry-item:hover .pname{
+  display: block;
 }
 
-.designItem .dirU,.dirD{
-    width:100%;
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .masonry-grid {
+    column-count: 2; /* 2 columns on medium screens */
+  }
+  .selected-portfolio-title {
+    font-size: 2em;
+  }
 }
 
-.designItem img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+@media (max-width: 768px) {
+  .portfolio-container {
+  padding-top: 2rem;
 }
 
-.wLabel{
-    position: absolute;
-    top:0.2rem;
-    left: 0;
-    width:fit-content;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(138, 32, 124);
-    border-radius: 20px;
+  .masonry-grid {
+    column-count: 1; /* 1 column on small screens */
+  }
+  .selected-portfolio-title {
+    font-size: 1.8em;
+  }
+  .app-container {
+    padding: 15px;
+  }
 }
 
-.wLabel h1{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.ww{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.ww h1{
-    margin-bottom: 1rem;
+@media (max-width: 480px) {
+  .pheader-section {
+    padding-top: 40px;
+  }
+  .selected-portfolio-title {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width:250px) and (max-width:1024px){
-    #wkWrap{
+    .portfolio-container {
         width: 90%;
     }
     
